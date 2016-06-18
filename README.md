@@ -12,5 +12,5 @@ Here's an example
 
 ![half-example](https://cloud.githubusercontent.com/assets/12804487/16174333/8d25e8fe-3593-11e6-838c-f735b994f4db.png)
 
-
+The SMS integration is done via Twilio.  You just need to set up a Twilio number and point the endpoint to the location of your app.
 
