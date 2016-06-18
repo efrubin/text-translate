@@ -61,12 +61,8 @@ def query_translate_api(query_string, source_lang=None, target_lang=None):
 
 def translate(query_string, source_lang, target_lang):
     r = query_translate_api(query_string, source_lang, target_lang)
-    print r
     try:
         translatedText = r.json()['data']['translations'][0]['translatedText']
     except Exception:
         translatedText = 'An error occured in the translation step.'
     return translatedText
-
-# if __name__ == "__main__":
-#     print translate("hello", "en","es")
