@@ -7,6 +7,10 @@ SMS but no data.  The usage is simple:
 
 for the language tags, any ISO-639 language code tag is supported. 
 
+Here's an example 
+
+
+![half-example](https://cloud.githubusercontent.com/assets/12804487/16174333/8d25e8fe-3593-11e6-838c-f735b994f4db.png)
 
 
 
